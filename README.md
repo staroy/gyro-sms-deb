@@ -6,6 +6,7 @@ Build:
 ```
 ./gyro-sms-deb-release.sh
 ```
+result in tmp/gyro-sms-deb-release
 
 Install:
 ```
@@ -18,6 +19,8 @@ sudo apt install libc6 libsodium23 libssl1.1 libhidapi-libusb0 libqt5gui5 libqt5
          qml-module-qtquick-dialogs qml-module-qtquick-privatewidgets libqt5quicktemplates2-5 \
          qml-module-qtquick-templates2 qml-module-qt-labs-settings qml-module-qt-labs-folderlistmodel \
          libqt5quickcontrols2-5 qml-module-qtquick-controls2 qml-module-qtquick-xmllistmodel
+```
+```
 sudo dpkg -i gyro-sms_0.1.0_ubuntu-20.04_amd64.deb
 ```
 
